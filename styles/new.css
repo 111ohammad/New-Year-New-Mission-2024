@@ -40,3 +40,92 @@
     line-height: 95px;
     text-align: center;
   }
+
+  .off {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .holiday {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .all {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .image {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    fill: url('../images/New\ Year\ Photo.png'), lightgray 50% / cover no-repeat;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .vector-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .vector-container img {
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    padding-top: 10%;
+  }
+
+  .welcome {
+    position: absolute;
+    width: 642px;
+    color: white;
+    padding: 10px 20px;
+    top: 45%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+  }
+
+  .vtr-d {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dolor {
+    position: absolute;
+    width: 697px;
+    color: white;
+    padding: 100px 30px;
+    bottom: 100%;
+    transform: translate(-160%, -50%);
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  
