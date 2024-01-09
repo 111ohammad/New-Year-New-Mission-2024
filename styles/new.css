@@ -1,1 +1,42 @@
-/*  */
+.banner-container .banner-party {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .banner-container img {
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    display: block;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+  }
+  
+  .text {
+    position: absolute;
+    background-color: none; 
+    color: rgb(160, 243, 6);
+    padding: 10px 20px;
+    font-family: Merriweather;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: 400px;
+    text-align: center;
+  }
+
+  .new {
+    position: absolute;
+    background-color: none; 
+    color: rgb(160, 243, 6);
+    padding: 10px 20px;
+    font-family: Merriweather;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    text-align: center;
+  }
